@@ -1,0 +1,26 @@
+@keyframes fillFromLeft {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes fillFromRight {
+    0% {
+        width: 100%;
+    }
+    100% {
+        width: 0%;
+    }
+}
+
+.animate-underline {
+    animation: fillFromLeft 0.2s forwards;
+}
+
+.animate-underline-reverse {
+    animation: fillFromRight 0.2s forwards;
+}
+

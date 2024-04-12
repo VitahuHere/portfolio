@@ -1,6 +1,3 @@
-export default function Personal(){
-    return (
-        <div>
-        </div>
-    )
+export default function Personal() {
+  return <div></div>;
 }
