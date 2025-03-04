@@ -1,7 +1,7 @@
 export default function Personal() {
   return (
     <main className="h-full">
-      <div className="mt-14 flex flex-col lg:flex-row justify-center items-center lg:space-x-24">
+      <div className="flex flex-col lg:flex-row justify-center items-center lg:space-x-24">
         <div className="space-y-4">
           <h1 className="text-5xl">
             Hi! I'm{" "}
